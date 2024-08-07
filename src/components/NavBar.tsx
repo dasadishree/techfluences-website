@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useEffect, useState } from 'react';
 import GitHubIcon from '../assets/GitHubIcon.svg'
 import GmailIcon from '../assets/GmailIcon.svg'
-import InstagramIcon from '../assets/InstagramIcon.svg'
+import InstagramIcon from '../assets/InstagramIncon.svg'
 import LinkedInIcon from '../assets/LinkedInIcon.svg'
 import TechIcon from '../assets/TechIcon.webp'
 
