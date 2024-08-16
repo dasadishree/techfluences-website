@@ -56,7 +56,7 @@ function Contact() {
     };
     
     return (
-        <section>
+        <section id="contact">
             <Row className="contact align-items-center">
             <Col xs={12} className="formUp">
                 <h2>Get In Touch</h2>

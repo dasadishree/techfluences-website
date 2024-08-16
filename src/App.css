@@ -661,4 +661,95 @@ a.navbar-brand img{
   .send:active {
     transform: scale(1);
   }
+
+
+.foot-bg{
+    max-width: 100vw !important;
+    margin: 0;
+    padding: 5%;
+    background-image: url("https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000005-64d6364d65/spiral.webp?ph=026eecf95c");
   
+}
+.foot-content{
+    margin: 100px;
+}
+
+.footer{
+    width: 80%;
+    height: 100%;
+    transform: scale(1.2);
+}
+
+.footer-social.socials__button {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.footer-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer img{
+    width: 100px;
+    height: 100px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 10%;
+}
+
+.email-form label{
+    font-size: 1.5em;
+}
+
+.email-form input{
+    border: 2px solid black;
+    color: white;
+    outline: none;
+    background: linear-gradient(30deg, var(--secondary-color), silver 500%);
+    padding: 5px;
+}
+
+.email-form input::placeholder{
+    color: white;
+}
+
+.email-form button{
+    margin-left: 4px;
+    padding: 2px 2px 0 2px;
+    width: 38px;
+    transition: 0.2s ease;
+}
+
+.email-form button:hover{
+    background: var(--secondary-color);
+    color: white;
+}
+
+.submit-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.danger{
+    color: red;
+}
+
+.success{
+    color: green;
+}
