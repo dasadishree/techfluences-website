@@ -732,6 +732,8 @@ a.navbar-brand img{
     padding: 2px 2px 0 2px;
     width: 38px;
     transition: 0.2s ease;
+    background-color: white;
+    color: black;
 }
 
 .email-form button:hover{
