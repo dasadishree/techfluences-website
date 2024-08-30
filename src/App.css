@@ -885,8 +885,14 @@ button#email-form-btn:hover{
 }
 
 .spotlight-section{
-    padding: 2%;
+    padding: 5%;
     margin: 5%;
     border-radius: 20px;
     background: linear-gradient(30deg, var(--main-color), var(--secondary-color));
+}
+
+@media (max-width: 768px){
+    .projectSubmit{
+        margin: 0 auto;
+    }
 }

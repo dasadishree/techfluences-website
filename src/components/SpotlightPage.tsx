@@ -21,7 +21,7 @@ function SpotlightPage() {
             <div className="spotlight-section">
             <h2 className="my-4 text-center spotlight-head">Spotlight</h2>
             <h3 className='text-center spotlight-info'>A program for coders to have a place to share their projects, support and connect with others, and be inspired to code more! </h3>
-            <p className='more-text'>If you want to add your project to our Spotlight, please complete the form below! These projects can be past projects, (ex: from past hackathons you've attended), current projects, or works in progress. You can even work on your projects in a team.</p>
+            <p className='more-text text-md-start text-center'>If you want to add your project to our Spotlight, please complete the form below! These projects can be past projects, (ex: from past hackathons you've attended), current projects, or works in progress. You can even work on your projects in a team.</p>
             <button className="learnmore projectSubmit" onClick={()=>{window.location.href = "https://forms.gle/o8ScS7H7LY1DpVED6"}}>Submit</button>
 
             </div>
