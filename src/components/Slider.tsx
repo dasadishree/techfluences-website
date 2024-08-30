@@ -31,7 +31,7 @@ function Slider(){
           <Col>
           <div className="slider-bx">
             <h2>Meet the Team</h2>
-            <p>Here is our crew that make everythin possible.</p>
+            <p>Meet our most essential team members.</p>
             <Carousel responsive={responsive} infinite={true} className="slider-slider">
               <div className="item">
                 <img src={Unkown}/>

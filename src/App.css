@@ -893,6 +893,7 @@ button#email-form-btn:hover{
 
 @media (max-width: 768px){
     .projectSubmit{
+        width: 100% !important;
         margin: 0 auto;
     }
 }
