@@ -727,10 +727,9 @@ a.navbar-brand img{
     color: white;
 }
 
-.email-form button{
+.email-form-btn button{
     margin-left: 4px;
     padding: 2px 2px 0 2px;
-    width: 38px;
     transition: 0.2s ease;
     background-color: white;
     color: black;
@@ -846,11 +845,6 @@ a.navbar-brand img{
     list-style: ">   ";
 }
 
-#email-form button{
-    background-color: whitesmoke;
-    color: black;
-    border: 5px solid black inset;
-}
 
 .projcard a{
     text-decoration: underline var(--secondary-color)
