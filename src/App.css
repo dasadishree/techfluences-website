@@ -727,15 +727,16 @@ a.navbar-brand img{
     color: white;
 }
 
-.email-form-btn button{
+button#email-form-btn{
     margin-left: 4px;
     padding: 2px 2px 0 2px;
+    width: 40px;
     transition: 0.2s ease;
     background-color: white;
     color: black;
 }
 
-.email-form button:hover{
+button#email-form-btn:hover{
     background: var(--secondary-color);
     color: white;
 }
