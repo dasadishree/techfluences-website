@@ -139,6 +139,7 @@ a.navbar-brand img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 50px;
 }
   
 .socials__button__media {
@@ -463,6 +464,10 @@ a.navbar-brand img{
     text-align: center;
     color: whitesmoke;
     width: 100%;
+}
+
+.banner__content{
+    margin-bottom: 100px;
 }
 
 .banner__content h3{
