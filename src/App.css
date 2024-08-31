@@ -794,13 +794,21 @@ button#email-form-btn:hover{
     font-size: 12px;
   }
   
-  .card-user .img {
+  .card-user .img{
     width: 150px;
     height:  150px;
     background: var(--secondary-color);
     border-radius: 200px;
     margin: auto;
     margin-top: 25px;
+  }
+
+  .card-user .img img{
+    width: 150px;
+    top: 0;
+    left: 0;
+    height:  150px;
+    border-radius: 200px;
   }
   
 
@@ -896,4 +904,39 @@ button#email-form-btn:hover{
         width: 100% !important;
         margin: 0 auto;
     }
+}
+
+/* Container for the carousel */
+.slider-bx {
+    position: relative;
+}
+
+/* Carousel items */
+.slider-slider .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Images in carousel items */
+.slider-slider .item img {
+    width: 60%; /* Adjust this to your desired width */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for effect */
+}
+
+/* Text styling inside the carousel */
+.slider-slider .item h3, 
+.slider-slider .item h5 {
+    margin: 10px 0; /* Adjust spacing as needed */
+}
+
+/* Make sure the carousel items center the content */
+.slider-slider .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
