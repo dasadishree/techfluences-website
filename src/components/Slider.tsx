@@ -5,7 +5,7 @@ import Unkown from '../assets/unkown.jpeg';
 import Adishree from '../assets/IMG_0687.jpg';
 import Maya from '../assets/IMG_0688.jpg';
 import Teja from '../assets/IMG_0672.jpg';
-import Hannah from '../assets/IMG_0677.jpg';
+import Hannah from '../assets/IMG_0671.jpg';
 import Hani from '../assets/IMG_0693.jpg';
 
 function Slider() {

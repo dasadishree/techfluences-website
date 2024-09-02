@@ -6,7 +6,7 @@ import TeamCard from './TeamCard';
 import Adishree from '../assets/IMG_0687.jpg';
 import Maya from '../assets/IMG_0688.jpg';
 import Teja from '../assets/IMG_0672.jpg';
-import Hannah from '../assets/IMG_0677.jpg';
+import Hannah from '../assets/IMG_0671.jpg';
 import Ritika from '../assets/IMG_0692.jpg';
 import Nina from '../assets/IMG_0681.jpg';
 import Aiza from '../assets/IMG_0684.jpg';
