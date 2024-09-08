@@ -1,6 +1,8 @@
 import { Row, Col, Container, Nav, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import { useState } from "react";
+import AIGlowUp from "../assets/ai.jpg"
+import WomenTech from "../assets/womenintech.jpg"
 
 function Projects() {
     const [active, setActive] = useState("General Tech");
@@ -48,6 +50,20 @@ function Projects() {
             category: "General Tech",
             link: "https://docs.google.com/document/d/1QlcoNHgFPN6nuqAZBX3CDSCw3pWVIesr4BmUL947STM/edit?usp=sharing"
         },
+        {
+            title: "The Ultimate Glow-Up of Artificial Intelligence",
+            description: "Describes different types of artificial intellignece and how it has evolved and been used",
+            imgUrl: AIGlowUp,
+            category: "AI",
+            link: "https://docs.google.com/document/d/1ngw0bOHjAmiOZFWl1XaW41yYm2JmAs9ppVzbSy4ehDA/edit?usp=sharing"
+        },
+        {
+            title: "History of Women in Tech",
+            description: "Introduces important historical women and their contributions to tech", 
+            imgUrl: WomenTech,
+            category: "General Tech",
+            link: "https://docs.google.com/document/d/10up55zOGqHkYnIklFGTv-I28use-y46YHeXahYjRRKY/edit?usp=sharing"
+        }
     ];
     
 

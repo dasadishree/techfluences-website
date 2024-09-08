@@ -20,17 +20,20 @@ import HannahP from '../assets/IMG_0686.jpg';
 import Diya from '../assets/IMG_0675.jpg';
 import Hani from '../assets/IMG_0693.jpg';
 import unkown from '../assets/unkown.jpeg';
+import Amber from '../assets/Amber.jpg';
+import Emily from '../assets/IMG_0677.jpg'
 
 function TeamPage() {
     const teamData = [
         { name: 'Adishree Das', position: 'PRESIDENT/FOUNDER', img: Adishree },
         { name: 'Maya Itskovich', position: 'CO-VICE PRESIDENT', img: Maya },
-        { name: 'Amber Poon', position: 'CO-VICE PRESIDENT', img: unkown }, // No image available
+        { name: 'Amber Poon', position: 'CO-VICE PRESIDENT', img: Amber }, 
         { name: 'Genesis Caballero', position: 'SECRETARY', img: unkown }, // No image available
         { name: 'Maide Ahsen Yucel', position: 'WRITING DIRECTOR', img: unkown }, // No image available
-        { name: 'Hani Mahdi', position: 'EXECUTIVE WEB DEVELOPER', img: Hani }, // No image available
+        { name: 'Hani Mahdi', position: 'EXECUTIVE WEB DEVELOPER', img: Hani }, 
         { name: 'Teja Umamaheswar', position: 'PUBLIC RELATIONS', img: Teja },
         { name: 'Hannah Jacob', position: 'PUBLIC RELATIONS', img: Hannah },
+        { name: 'Emily Chen', position: 'PUBLIC RELATIONS', img: Emily }
     ];
 
     const blogWriterData = [
