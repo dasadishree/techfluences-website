@@ -22,13 +22,14 @@ import Hani from '../assets/IMG_0693.jpg';
 import unkown from '../assets/unkown.jpeg';
 import Amber from '../assets/Amber.jpg';
 import Emily from '../assets/IMG_0677.jpg'
+import Genesis from '../assets/genesis.jpg'
 
 function TeamPage() {
     const teamData = [
         { name: 'Adishree Das', position: 'PRESIDENT/FOUNDER', img: Adishree },
         { name: 'Maya Itskovich', position: 'CO-VICE PRESIDENT', img: Maya },
         { name: 'Amber Poon', position: 'CO-VICE PRESIDENT', img: Amber }, 
-        { name: 'Genesis Caballero', position: 'SECRETARY', img: unkown }, // No image available
+        { name: 'Genesis Caballero', position: 'SECRETARY', img: Genesis }, 
         { name: 'Maide Ahsen Yucel', position: 'WRITING DIRECTOR', img: unkown }, // No image available
         { name: 'Hani Mahdi', position: 'EXECUTIVE WEB DEVELOPER', img: Hani }, 
         { name: 'Teja Umamaheswar', position: 'PUBLIC RELATIONS', img: Teja },
@@ -65,7 +66,8 @@ function TeamPage() {
         { name: "Naman Nagelia", img: '' },
         { name: "Hamzah Deejay", img: '' },
         { name: "Evan Shoemaker", img: '' },
-        { name: "Wanzie Li", img: '' }
+        { name: "Wanzie Li", img: '' },
+        { name: "Fahmida Maliha Khan", img: ''}
     ];
 
     return (

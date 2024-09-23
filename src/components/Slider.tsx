@@ -9,6 +9,7 @@ import Hannah from '../assets/IMG_0671.jpg';
 import Hani from '../assets/IMG_0693.jpg';
 import Amber from '../assets/Amber.jpg';
 import Emily from '../assets/IMG_0677.jpg'
+import Genesis from '../assets/genesis.jpg'
 
 function Slider() {
     const responsive = {
@@ -34,7 +35,7 @@ function Slider() {
         { name: 'Adishree Das', position: 'PRESIDENT/FOUNDER', img: Adishree },
         { name: 'Maya Itskovich', position: 'CO-VICE PRESIDENT', img: Maya },
         { name: 'Amber Poon', position: 'CO-VICE PRESIDENT', img: Amber },
-        { name: 'Genesis Caballero', position: 'SECRETARY', img: Unkown },
+        { name: 'Genesis Caballero', position: 'SECRETARY', img: Genesis },
         { name: 'Maide Ahsen Yucel', position: 'WRITING DIRECTOR', img: Unkown },
         { name: 'Hani Mahdi', position: 'EXECUTIVE WEB DEVELOPER', img: Hani },
         { name: 'Teja Umamaheswar', position: 'PUBLIC RELATIONS', img: Teja },

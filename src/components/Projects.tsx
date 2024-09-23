@@ -3,6 +3,8 @@ import ProjectCard from "./ProjectCard";
 import { useState } from "react";
 import AIGlowUp from "../assets/ai.jpg"
 import WomenTech from "../assets/womenintech.jpg"
+import GraceHopper from "../assets/gracehopper.jpg"
+import DataPrivacy from "../assets/dataprivacy.jpg"
 
 function Projects() {
     const [active, setActive] = useState("General Tech");
@@ -63,6 +65,20 @@ function Projects() {
             imgUrl: WomenTech,
             category: "General Tech",
             link: "https://docs.google.com/document/d/10up55zOGqHkYnIklFGTv-I28use-y46YHeXahYjRRKY/edit?usp=sharing"
+        },
+        {
+            title: "Grace Hopper",
+            description: "Biography of Grace Hopper", 
+            imgUrl: GraceHopper,
+            category: "General Tech",
+            link: "https://docs.google.com/document/d/1G_lwDGz5UGhduyTjzmOAzAWZcIh40IN4w2NrRNN8fQg/edit?usp=sharing"
+        },
+        {
+            title: "The Importance of Data Privacy",
+            description: "Covers what data privacy is and why it is important", 
+            imgUrl: DataPrivacy,
+            category: "General Tech",
+            link: "https://docs.google.com/document/d/1XAtxtsaT5knnZFmnH8gkM4hFwU_zij01YWOt0AEg_fQ/edit?usp=sharing"
         }
     ];
     

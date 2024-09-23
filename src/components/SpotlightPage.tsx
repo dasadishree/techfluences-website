@@ -4,6 +4,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 function SpotlightPage() {
     // Define the project data with image URLs and links
     const projects = [
+        { name: "Water The Plant!", author: ["Fahmida Maliha Khan"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000173-f19b6f19b8/450/plant%20-%20Maliha%20Khan.webp?ph=026eecf95c", link: "https://collectiongame-maliha-k.replit.app/" },
+        { name: "Mission Earth 2.0", author: ["Fahmida Maliha Khan"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000171-8581c8581f/700/MISSION.webp?ph=026eecf95c", link: "https://v-3-the-impersonator-of-elklark-wanzie-l-chimerablues.replit.app/" },
         { name: "The Impersonator of Elklark", author: ["Wanzie Li"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000157-5f2275f229/700/ElkLark%20-%20Wanzie.webp?ph=026eecf95c", link: "https://v-3-the-impersonator-of-elklark-wanzie-l-chimerablues.replit.app/" },
         { name: "Ruby Dashboard", author: ["Maisha Supritee Chowdhury", "Harvey Tseng", "Naman Nagelia", "Hamzah Deejay", "Evan Shoemaker"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000155-107c5107c8/700/RUBY%20DASHBOARD.webp?ph=026eecf95c", link: "https://ruby-frontend-five.vercel.app/" },
         { name: "A Light In The Forest", author: ["Livia Zhao"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000151-a74cea74d1/700/IMG_8264%20-%20Livia%20Zhao.webp?ph=026eecf95c", link: "https://a-light-in-the-forest.replit.app/" },
