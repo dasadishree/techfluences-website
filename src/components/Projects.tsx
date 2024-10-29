@@ -5,7 +5,7 @@ import AIGlowUp from "../assets/ai.jpg"
 import WomenTech from "../assets/womenintech.jpg"
 import GraceHopper from "../assets/gracehopper.jpg"
 import DataPrivacy from "../assets/dataprivacy.jpg"
-
+import Reshma from "../assets/Reshma.png"
 function Projects() {
     const [active, setActive] = useState("General Tech");
 
@@ -79,6 +79,13 @@ function Projects() {
             imgUrl: DataPrivacy,
             category: "General Tech",
             link: "https://docs.google.com/document/d/1XAtxtsaT5knnZFmnH8gkM4hFwU_zij01YWOt0AEg_fQ/edit?usp=sharing"
+        },
+        {
+            title: "Spotlight on Reshma Saujani",
+            description: "Spotlights Reshma Saujani, CEO of Girls Who Code", 
+            imgUrl: Reshma,
+            category: "General Tech",
+            link: "https://docs.google.com/document/d/1UwxJxZ7yHbhSVsKN1raTKq0GXH62MNT9b0VEy5fyfGE/edit?usp=sharing"
         }
     ];
     
