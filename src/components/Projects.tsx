@@ -6,6 +6,7 @@ import WomenTech from "../assets/womenintech.jpg"
 import GraceHopper from "../assets/gracehopper.jpg"
 import DataPrivacy from "../assets/dataprivacy.jpg"
 import Reshma from "../assets/Reshma.png"
+import EthicalHacking from "../assets/ethicalhacking.png"
 function Projects() {
     const [active, setActive] = useState("General Tech");
 
@@ -86,6 +87,13 @@ function Projects() {
             imgUrl: Reshma,
             category: "General Tech",
             link: "https://docs.google.com/document/d/1UwxJxZ7yHbhSVsKN1raTKq0GXH62MNT9b0VEy5fyfGE/edit?usp=sharing"
+        },
+        {
+            title: "The Double-Edged Sword of Ethical Hacking",
+            description: "Briefly describes ethical hacking and its role", 
+            imgUrl: EthicalHacking,
+            category: "General Tech",
+            link: "https://docs.google.com/document/d/1JqA45E4fN3107OgeLnMC1bfLiQHlfTJzmm3WD6MiYMw/edit?usp=sharing"
         }
     ];
     
