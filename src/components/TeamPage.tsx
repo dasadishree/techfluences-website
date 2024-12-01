@@ -19,7 +19,7 @@ import Angelina from '../assets/IMG_0678.jpg';
 import HannahP from '../assets/IMG_0686.jpg';
 import Diya from '../assets/IMG_0675.jpg';
 import Hani from '../assets/IMG_0693.jpg';
-import unkown from '../assets/unkown.jpeg';
+import Maide from '../assets/maide.jpeg';
 import Amber from '../assets/Amber.jpg';
 import Emily from '../assets/IMG_0677.jpg'
 import Genesis from '../assets/genesis.jpg'
@@ -30,7 +30,7 @@ function TeamPage() {
         { name: 'Maya Itskovich', position: 'CO-VICE PRESIDENT', img: Maya },
         { name: 'Amber Poon', position: 'CO-VICE PRESIDENT', img: Amber }, 
         { name: 'Genesis Caballero', position: 'SECRETARY', img: Genesis }, 
-        { name: 'Maide Ahsen Yucel', position: 'WRITING DIRECTOR', img: unkown }, // No image available
+        { name: 'Maide Ahsen Yucel', position: 'WRITING DIRECTOR', img:  Maide}, // No image available
         { name: 'Hani Mahdi', position: 'EXECUTIVE WEB DEVELOPER', img: Hani }, 
         { name: 'Teja Umamaheswar', position: 'PUBLIC RELATIONS', img: Teja },
         { name: 'Hannah Jacob', position: 'PUBLIC RELATIONS', img: Hannah },
