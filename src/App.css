@@ -854,7 +854,18 @@ button#email-form-btn:hover{
     line-height: 2em;
     color: whitesmoke;
 }
+.codecrafters{
+    width: 60%;
+    margin: auto;
+    font-size: 0.8em;
+    line-height: 2em;
+    color: whitesmoke;
+}
 
+.codecrafters-link{
+    text-decoration: none;
+    color:cornflowerblue;
+}
 .spotlight li{
     list-style: ">   ";
 }
@@ -895,10 +906,17 @@ button#email-form-btn:hover{
 .spotlight-section{
     padding: 5%;
     margin: 5%;
+    margin-bottom: 1%;
     border-radius: 20px;
     background: linear-gradient(30deg, var(--main-color), var(--secondary-color));
 }
 
+.codecrafters-section{
+    padding: 2%;
+    margin: 2%;
+    border-radius: 20px;
+    background: linear-gradient(30deg, var(--main-color), var(--secondary-color));
+}
 @media (max-width: 768px){
     .projectSubmit{
         width: 100% !important;
@@ -940,3 +958,4 @@ button#email-form-btn:hover{
     flex-direction: column;
     justify-content: center;
 }
+

@@ -18,35 +18,47 @@ function SpotlightPage() {
         { name: "Restoration of Light", author: ["Nadja Salome-Diaz", "Emely L."], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000093-51be651be9/700/Untitled%20design%20%282%29.webp?ph=026eecf95c", link: "https://restoration-of-light-nadja-emely.replit.app/" }
     ];
 
-    return (<>
-           <Container>
-            <div className="spotlight-section">
-            <h2 className="my-4 text-center spotlight-head">Spotlight</h2>
-            <h3 className='text-center spotlight-info'>A program for coders to have a place to share their projects, support and connect with others, and be inspired to code more! </h3>
-            <p className='more-text text-md-start text-center'>If you want to add your project to our Spotlight, please complete the form below! These projects can be past projects, (ex: from past hackathons you've attended), current projects, or works in progress. You can even work on your projects in a team.</p>
-            <button className="learnmore projectSubmit" onClick={()=>{window.location.href = "https://forms.gle/o8ScS7H7LY1DpVED6"}}>Submit</button>
+    return (
+        <>
+            <Container>
+                <div className="spotlight-section">
+                    <h2 className="my-4 text-center spotlight-head">Spotlight</h2>
+                    <h3 className='text-center spotlight-info'>A program for coders to have a place to share their projects, support and connect with others, and be inspired to code more!</h3>
+                    
+                    <p className='more-text text-md-start text-center'>If you want to add your project to our Spotlight, please complete the form below! These projects can be past projects, (ex: from past hackathons you've attended), current projects, or works in progress. You can even work on your projects in a team.</p>
+                    <button className="learnmore projectSubmit" onClick={() => { window.location.href = "https://forms.gle/o8ScS7H7LY1DpVED6" }}>Submit</button>
+                </div>
 
-            </div>
-            <Row>
-                {projects.map((project, index) => (
-                    <Col key={index} md={6} lg={4} className="mb-4">
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                            <Card>
-                                {/* Display the project image */}
-                                <Card.Img className="card-image" variant="top" src={project.imageUrl} alt={project.name} />
-                                <Card.Body>
-                                    <Card.Title>{project.name}</Card.Title>
-                                    <Card.Text>
-                                        {/* Display authors */}
-                                        {project.author.join(', ')}
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </a>
-                    </Col>
-                ))}
-            </Row>
-        </Container></>
+            {/* New information box */}
+            <div className="codecrafters-section">
+                    <h3 className="my-4 text-center codecrafters-head">Our Partner - CodeCrafters!</h3>
+                    <p className="text-center codecrafters-info">
+                        Want to create your own project? CodeCrafters has many <a className="codecrafters-link" href="https://github.com/codecrafters-io/build-your-own-x/"><strong><em>step-by-step guides</em></strong></a> for you!
+                        <br></br>Purchase a <a className="codecrafters-link" href="https://app.codecrafters.io/join?via=techfluences"><strong><em>CodeCrafters membership </em></strong></a>to gain access to programming courses and build complex projects.
+                    </p>
+                </div>
+            
+                <Row>
+                    {projects.map((project, index) => (
+                        <Col key={index} md={6} lg={4} className="mb-4">
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <Card>
+                                    {/* Display the project image */}
+                                    <Card.Img className="card-image" variant="top" src={project.imageUrl} alt={project.name} />
+                                    <Card.Body>
+                                        <Card.Title>{project.name}</Card.Title>
+                                        <Card.Text>
+                                            {/* Display authors */}
+                                            {project.author.join(', ')}
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
+                    ))}
+                </Row>
+            </Container>
+        </>
     );
 }
 
