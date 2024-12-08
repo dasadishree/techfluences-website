@@ -1,7 +1,7 @@
 import { Row, Col, Container } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Unkown from '../assets/unkown.jpeg';
+import Maide from '../assets/maide.jpeg';
 import Adishree from '../assets/IMG_0687.jpg';
 import Maya from '../assets/IMG_0688.jpg';
 import Teja from '../assets/IMG_0672.jpg';
@@ -36,7 +36,7 @@ function Slider() {
         { name: 'Maya Itskovich', position: 'CO-VICE PRESIDENT', img: Maya },
         { name: 'Amber Poon', position: 'CO-VICE PRESIDENT', img: Amber },
         { name: 'Genesis Caballero', position: 'SECRETARY', img: Genesis },
-        { name: 'Maide Ahsen Yucel', position: 'WRITING DIRECTOR', img: Unkown },
+        { name: 'Maide Ahsen Yucel', position: 'WRITING DIRECTOR', img: Maide },
         { name: 'Hani Mahdi', position: 'EXECUTIVE WEB DEVELOPER', img: Hani },
         { name: 'Teja Umamaheswar', position: 'PUBLIC RELATIONS', img: Teja },
         { name: 'Hannah Jacob', position: 'PUBLIC RELATIONS', img: Hannah },
