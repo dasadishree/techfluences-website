@@ -46,7 +46,7 @@ function NavBar() {
           <span className="navbar-text">
             <Socials id=""/>        
           </span>
-          <button className="navbar-link btn-contact" onClick={()=>{window.location.href = "mailto:techfluences@gmail.com"}}>Contact Us</button>
+          <button className="navbar-link btn-contact" onClick={()=>{window.location.href = "#bottom"}}>Contact Us</button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

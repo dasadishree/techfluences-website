@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import TechIcon from "../assets/TechIcon.webp"
 import Socials from "./Socials";
-import Email from "./Email"
+// import Email from "./Email"
 
 function Footer(){
 
@@ -12,12 +12,14 @@ function Footer(){
                 <Row className="align-item-center footer">
                     <Col sm={6} className="mt-5">
                         <div className="footer-left">
-                            <Email />
+                            {/* <Email /> */}
                         <img className="d-none d-xs-block d-sm-none d-md-none d-lg-block"  src={TechIcon}/>
+                        <h2>Contact Us!</h2>
+                        <p>techfluences@gmail.com or message @techfluences on Instagram</p>
                         </div>
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
-                        <div className="footer-text mt-5">
+                        <div className="footer-text mt-5" id="bottom">
                             <Socials id="footer-social"/>
                             <p>CopyRight 2024. All Rights Reserved. Techfluences</p>
                         </div>

@@ -6,7 +6,6 @@ interface Props{
 function Socials({id}: Props){
 
     const socialLinks = [
-        'mailto:techfluences@gmail.com',
         'https://www.instagram.com/techfluences?igsh=MTBvcDR3MG05aGxrbw==',
         'https://www.linkedin.com/company/techfluences/',
         'https://discord.gg/7PNW6mws8f'
@@ -19,13 +18,8 @@ function Socials({id}: Props){
     return (
         <>
                   <div className={"socials__button" + " " + id}>
-                <div className="socials__button__media" id="email" onClick={()=>{handleOnClick(0)}}><svg className="button__icon" fill="#FFFFFF"
-                    viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M30.996 7.824v17.381c0 0 0 0 0 0.001 0 1.129-0.915 2.044-2.044 2.044-0 0-0 0-0.001 0h-4.772v-11.587l-8.179 6.136-8.179-6.136v11.588h-4.772c0 0 0 0-0 0-1.129 0-2.044-0.915-2.044-2.044 0-0 0-0.001 0-0.001v0-17.381c0-0 0-0.001 0-0.001 0-1.694 1.373-3.067 3.067-3.067 0.694 0 1.334 0.231 1.848 0.619l-0.008-0.006 10.088 7.567 10.088-7.567c0.506-0.383 1.146-0.613 1.84-0.613 1.694 0 3.067 1.373 3.067 3.067v0z">
-                    </path>
-                  </svg></div>
-                <div className="socials__button__media" id="insta" onClick={()=>{handleOnClick(1)}}>
+                
+                <div className="socials__button__media" id="insta" onClick={()=>{handleOnClick(0)}}>
                   <svg className="button__icon" id="instaIcon" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clip-rule="evenodd"
@@ -39,7 +33,7 @@ function Socials({id}: Props){
                       fill="#FFFFFF" />
                   </svg>
                 </div>
-                <div className="socials__button__media" id="linkedin" onClick={()=>{handleOnClick(2)}}><svg className="button__icon" viewBox="0 0 24 24"
+                <div className="socials__button__media" id="linkedin" onClick={()=>{handleOnClick(1)}}><svg className="button__icon" viewBox="0 0 24 24"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
@@ -54,7 +48,7 @@ function Socials({id}: Props){
                       d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
                       fill="#FFFFFF" />
                   </svg></div>
-                <div className="socials__button__media" id="github" onClick={()=>{handleOnClick(3)}}>
+                <div className="socials__button__media" id="github" onClick={()=>{handleOnClick(2)}}>
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z" fill="#fff"/>
 </svg>  

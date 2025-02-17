@@ -179,10 +179,6 @@ a.navbar-brand img{
     fill: var(--main-color);
 }
 
-#email{
-    margin-left: 0;
-}
-
 .wrap{
     margin-left: 15px;
 }
@@ -248,6 +244,8 @@ a.navbar-brand img{
     cursor: pointer;
     color: black;
     z-index: 1;
+    margin: auto;
+    justify-content: center;
   }
   
   .learnmore:before {
@@ -704,53 +702,12 @@ a.navbar-brand img{
 
 .footer-left{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.email-form{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-right: 10%;
+    /* align-items: center; */
+    margin-top: -7%;
 }
 
-.email-form label{
-    font-size: 1.5em;
-}
 
-.email-form input{
-    border: 2px solid black;
-    color: white;
-    outline: none;
-    background: linear-gradient(30deg, var(--secondary-color), silver 500%);
-    padding: 5px;
-}
-
-.email-form input::placeholder{
-    color: white;
-}
-
-button#email-form-btn{
-    margin-left: 4px;
-    padding: 2px 2px 0 2px;
-    width: 40px;
-    transition: 0.2s ease;
-    background-color: white;
-    color: black;
-}
-
-button#email-form-btn:hover{
-    background: var(--secondary-color);
-    color: white;
-}
-
-.submit-form{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .blog a{
     display: flex;
@@ -870,6 +827,12 @@ button#email-form-btn:hover{
     list-style: ">   ";
 }
 
+.timeline-section {
+    padding: 2%;
+    margin: 2%;
+    border-radius: 20px;
+    background: linear-gradient(30deg, var(--main-color), var(--secondary-color));
+}
 
 .projcard a{
     text-decoration: underline var(--secondary-color)
@@ -958,4 +921,40 @@ button#email-form-btn:hover{
     flex-direction: column;
     justify-content: center;
 }
+.timeline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    scrollbar-width: thin;
+  }
+  
+  .timeline::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  .timeline::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 3px;
+  }
+  
+  .timeline-item {
+    text-align: center;
+    min-width: 20px;
+    display: inline-block;
+  }
 
+  .timeline-content {
+    background: #234478;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 20px;
+    display: inline-block;
+    width: 90%
+  }  
