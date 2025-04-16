@@ -18,6 +18,7 @@ export default defineConfig({
         team: resolve(root, 'team.html'),
         spotlight: resolve(root, 'spotlight.html'),
         tutorial: resolve(root, 'tutorial.html'),
+        valentine: resolve(root, 'valentine.html'),
       }
     }
   }
