@@ -9,7 +9,7 @@ interface Props{
 
 function ProjectCard({title, description, imgUrl, link}: Props){
     const handleClick = (e: React.MouseEvent) => {
-        window.location.href = link;
+        window.open(link, '_blank');
     };
 
     return <>

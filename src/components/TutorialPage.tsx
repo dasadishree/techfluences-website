@@ -1,20 +1,19 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import valentineImage from '../assets/valentine.png';
 
 function TutorialPage() {
     const tutorials = [
         {
             title: 'Simple Valentine\'s Day Website',
             level: 'Beginner',
-            link: 'valentine.html',
-            imageUrl: valentineImage
+            link: '/tutorial-pages/valentine.html',
+            imageUrl: 'https://hc-cdn.hel1.your-objectstorage.com/s/v3/44cd3789587b4ca7954bb1465262115b02eab8e0_valentine.png'
         },
         {
             title: 'Python Basics',
             level: 'Beginner',
-            link: 'https://docs.google.com/document/d/1zf2jCxBx5ngCLZRdopScoqQ4sqaphsIiX1uKo8zMQBw/edit?usp=sharing',
-            imageUrl: 'https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000059-d3431d3433/700/blog%20cover%20templates%20%281%29.webp?ph=026eecf95c'
+            link: '/tutorial-pages/pythonbasics.html',
+            imageUrl: 'https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000059-d3431d3433/700/blog%20cover%20templates%20%281%29.webp?'
         }
     ];
 

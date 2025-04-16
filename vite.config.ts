@@ -19,6 +19,7 @@ export default defineConfig({
         spotlight: resolve(root, 'spotlight.html'),
         tutorial: resolve(root, 'tutorial.html'),
         valentine: resolve(root, 'valentine.html'),
+        'pythonbasics': resolve(root, 'tutorial-pages/pythonbasics.html'),
         'cybersecurity-catastrophe': resolve(root, 'blog-pages/cybersecurity-catastrophe.html'),
         'history-of-coding': resolve(root, 'blog-pages/history-of-coding.html'),
         'web-dev-basics': resolve(root, 'blog-pages/web-dev-basics.html'),
