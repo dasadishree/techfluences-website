@@ -4,6 +4,12 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 function SpotlightPage() {
     // Define the project data with image URLs and links
     const projects = [
+        { name: "Frosty Delights", author: ["Adishree Das"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/08e9d7ae1738e591986a6ae8a124f61b850f8511_screenshot_2025-04-16_at_9.45.18___am__2_.png", link: "https://github.com/dasadishree/frostydelights" },
+        { name: "Skyglider", author: ["Adishree Das"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/69048322697fcd65e9b44ea7a88bfdf9a5a11513_screenshot_2025-04-16_at_9.39.06___am__2_.png", link: "https://github.com/dasadishree/counterspell-skyglider" },
+        { name: "Planetopia", author: ["Lubaba Nawla, Adishree Das, Avni Harsh"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/14253cf721b38951e37f5694ade4698e98109825_img_7128.jpg", link: "https://github.com/lubabanawla/Planetopia" },
+        { name: "Voctab", author: ["Adishree Das"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/bdda1bd13afbb0568470a9d5c14bbbfb7b895c2c_love.png", link: "https://github.com/dasadishree/voctab" },
+        { name: "AI Browser Companion", author: ["Aadil Noufal"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a8a09a8e7172eaa7195bb796702e8705ad99520e_screenshot_2025-03-15_201405_-_aadil_noufal.png", link: "https://github.com/aadilnoufal/AI_browser_extention/tree/main" },
+        { name: "Personal Site", author: ["Adishree Das"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/831a02804575662fd6c0c5e1048b2a692cd570df_me__1_.png", link: "https://dasadishree.me" },
         { name: "Water The Plant!", author: ["Fahmida Maliha Khan"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000173-f19b6f19b8/450/plant%20-%20Maliha%20Khan.webp?ph=026eecf95c", link: "https://collectiongame-maliha-k.replit.app/" },
         { name: "Mission Earth 2.0", author: ["Fahmida Maliha Khan"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000171-8581c8581f/700/MISSION.webp?ph=026eecf95c", link: "https://v-3-the-impersonator-of-elklark-wanzie-l-chimerablues.replit.app/" },
         { name: "The Impersonator of Elklark", author: ["Wanzie Li"], imageUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000157-5f2275f229/700/ElkLark%20-%20Wanzie.webp?ph=026eecf95c", link: "https://v-3-the-impersonator-of-elklark-wanzie-l-chimerablues.replit.app/" },
@@ -26,6 +32,7 @@ function SpotlightPage() {
                     <h3 className='text-center spotlight-info'>A program for coders to have a place to share their projects, support and connect with others, and be inspired to code more!</h3>
                     
                     <p className='more-text text-md-start text-center'>To add your project to our Spotlight, please complete the form below! These projects can be past projects, (ex: from past hackathons you've attended), current projects, or works in progress. You can even work on your projects in a team.</p>
+                    <p><center>Note: Many of the older projects are not accessible anymore due to Replit problems!</center></p>
                     <center>
                     <button className="learnmore projectSubmit" onClick={() => { window.location.href = "https://forms.gle/o8ScS7H7LY1DpVED6" }}>Submit</button>
                     </center>
