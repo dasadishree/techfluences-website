@@ -4,6 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 function SpotlightPage() {
     // Define the project data with image URLs and links
     const projects = [
+        { name: "Salle D'evasion", author: ["Reem Khalifa"], imageUrl: "https://v5.airtableusercontent.com/v3/u/40/40/1744826400000/z2P19cWtpE5dKnJmuV1ozw/bYWJ5YmxkU03M8Tfw_UGfsFWVRG9UEKIIlr7eR8kU5DXEtIKBlbjFi49Ihi0hO_evchBoxYFEbXvVhWmfIcQnDmCbDVQzqr_FDTO07tgfjXBbgRCFGj-TrABYhB7MhyuTWWZJkoZytkss0nGMKh45w/5YKPy5hpqsz8PDQ9LARkfgou9iNNQhS3b0osAEwUkeE", link: "https://reemkhalifa.itch.io/salledevasion" },
         { name: "Frosty Delights", author: ["Adishree Das"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/08e9d7ae1738e591986a6ae8a124f61b850f8511_screenshot_2025-04-16_at_9.45.18___am__2_.png", link: "https://github.com/dasadishree/frostydelights" },
         { name: "Skyglider", author: ["Adishree Das"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/69048322697fcd65e9b44ea7a88bfdf9a5a11513_screenshot_2025-04-16_at_9.39.06___am__2_.png", link: "https://github.com/dasadishree/counterspell-skyglider" },
         { name: "Planetopia", author: ["Lubaba Nawla, Adishree Das, Avni Harsh"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/14253cf721b38951e37f5694ade4698e98109825_img_7128.jpg", link: "https://github.com/lubabanawla/Planetopia" },
