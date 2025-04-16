@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-color: lightsteelblue;
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    color: navy;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+h3{
+    margin: 10px;
+    font-style: italic;
+}
+.root{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.blog-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-left:10%;
+    margin-right:10%;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: navy;
+}
+a{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: navy;
+    color:navy;
+}
+p {
+    line-height: 2;
+    margin-bottom: 1.5rem;
+}
+
+h4{
+    background-color: lightsteelblue;
+    display: inline-block;
+    padding:5px;
+    margin:0px;
+    color:navy;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-image{
+    margin: 0px;    
+    padding: 0px;
+}

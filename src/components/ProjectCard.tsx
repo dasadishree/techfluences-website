@@ -8,14 +8,20 @@ interface Props{
 }
 
 function ProjectCard({title, description, imgUrl, link}: Props){
+    const handleClick = (e: React.MouseEvent) => {
+        window.location.href = link;
+    };
+
     return <>
     <Col sm={6} md={4} className="justify-content-center projcard">
-        <a href={link} target="_blank" rel="noopener noreferrer" ><div className="blog-image-bx">
-            <img src={imgUrl}/>
-            <div className="overlay">
-                <p>{title}</p>
+        <div onClick={handleClick} style={{ cursor: 'pointer' }}>
+            <div className="blog-image-bx">
+                <img src={imgUrl}/>
+                <div className="overlay">
+                    <p>{title}</p>
+                </div>
             </div>
-        </div></a>
+        </div>
     </Col>
     </>
 }

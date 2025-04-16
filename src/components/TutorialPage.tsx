@@ -9,6 +9,12 @@ function TutorialPage() {
             level: 'Beginner',
             link: 'valentine.html',
             imageUrl: valentineImage
+        },
+        {
+            title: 'Python Basics',
+            level: 'Beginner',
+            link: 'https://docs.google.com/document/d/1zf2jCxBx5ngCLZRdopScoqQ4sqaphsIiX1uKo8zMQBw/edit?usp=sharing',
+            imageUrl: 'https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000059-d3431d3433/700/blog%20cover%20templates%20%281%29.webp?ph=026eecf95c'
         }
     ];
 

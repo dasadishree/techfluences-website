@@ -14,86 +14,79 @@ function Projects() {
         {
             title: "Cybersecurity Catastrophe",
             description: "Discusses a major cybersecurity incident and its impact on technology and global connectivity.",
-            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000139-0477b0477e/700/9.webp?ph=026eecf95c",
-            category: "Coding",
-            link: "https://docs.google.com/document/d/1kLBFcJ0-Ofe-zp6TtQ50z_F6X1g71TCGFRYFcKTzj7w/edit?usp=sharing"
+            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000047-ba312ba316/700/blog%20cover%20templates.webp?ph=026eecf95c",
+            category: "General Tech",
+            link: "/blog-pages/cybersecurity-catastrophe.html"
         },
         {
             title: "History of Coding",
             description: "Reviews the evolution of coding and how modern tools and resources have made it more accessible.",
             imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000129-6eae36eae6/700/7.webp?ph=026eecf95c",
             category: "Coding",
-            link: "https://docs.google.com/document/d/1MP8EX7naapnjln9y4ciUJF6qI7y0wV2Yz5i0L0kV5U4/edit?usp=sharing"
+            link: "/blog-pages/history-of-coding.html"
         },
         {
             title: "Web Dev Basics",
             description: "Provides a quick guide on web development, comparing it to the components of a painting.",
             imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000112-948799487e/700/5.webp?ph=026eecf95c",
             category: "Coding",
-            link: "https://docs.google.com/document/d/10Z8o21tIVugBwG0ocboN2ZBj-it4nWlmA5QTCG8a8v4/edit?usp=sharing"
-        },
-        {
-            title: "Basics of Coding - Python",
-            description: "Introduces coding with a focus on Python, explaining basic concepts and steps to get started.",
-            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000059-d3431d3433/700/blog%20cover%20templates%20%281%29.webp?ph=026eecf95c",
-            category: "Coding",
-            link: "https://docs.google.com/document/d/1zf2jCxBx5ngCLZRdopScoqQ4sqaphsIiX1uKo8zMQBw/edit?usp=sharing"
+            link: "/blog-pages/web-dev-basics.html"
         },
         {
             title: "History of Debugging",
             description: "Explores the origins and development of debugging, starting from a notable incident in 1947.",
             imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000051-2f3262f32a/700/blog%20cover%20templates-1.webp?ph=026eecf95c",
-            category: "General Tech",
-            link: "https://docs.google.com/document/d/1-40E030VLqj4Q6S2ID5Z0EjJatOGPvr9y5q6aaUmdrI/edit?usp=sharing"
+            category: "Coding",
+            link: "/blog-pages/history-of-debugging.html"
         },
         {
             title: "Cybersecurity Basics",
             description: "Covers the fundamentals of cybersecurity and its importance in protecting technology.",
-            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000047-ba312ba316/700/blog%20cover%20templates.webp?ph=026eecf95c",
+            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000139-0477b0477e/700/9.webp?ph=026eecf95c",
             category: "General Tech",
-            link: "https://docs.google.com/document/d/1QlcoNHgFPN6nuqAZBX3CDSCw3pWVIesr4BmUL947STM/edit?usp=sharing"
+            link: "/blog-pages/cybersecurity-basics.html"
         },
         {
             title: "The Ultimate Glow-Up of Artificial Intelligence",
             description: "Describes different types of artificial intellignece and how it has evolved and been used",
             imgUrl: AIGlowUp,
             category: "AI",
-            link: "https://docs.google.com/document/d/1ngw0bOHjAmiOZFWl1XaW41yYm2JmAs9ppVzbSy4ehDA/edit?usp=sharing"
+            link: "/blog-pages/ai-glow-up.html"
         },
         {
             title: "History of Women in Tech",
             description: "Introduces important historical women and their contributions to tech", 
             imgUrl: WomenTech,
             category: "General Tech",
-            link: "https://docs.google.com/document/d/10up55zOGqHkYnIklFGTv-I28use-y46YHeXahYjRRKY/edit?usp=sharing"
+            link: "/blog-pages/women-in-tech.html"
         },
         {
             title: "Grace Hopper",
             description: "Biography of Grace Hopper", 
             imgUrl: GraceHopper,
             category: "General Tech",
-            link: "https://docs.google.com/document/d/1G_lwDGz5UGhduyTjzmOAzAWZcIh40IN4w2NrRNN8fQg/edit?usp=sharing"
+            link: "/blog-pages/grace-hopper.html"
         },
         {
             title: "The Importance of Data Privacy",
             description: "Covers what data privacy is and why it is important", 
             imgUrl: DataPrivacy,
             category: "General Tech",
-            link: "https://docs.google.com/document/d/1XAtxtsaT5knnZFmnH8gkM4hFwU_zij01YWOt0AEg_fQ/edit?usp=sharing"
+            link: "/blog-pages/data-privacy.html"
         },
         {
             title: "Spotlight on Reshma Saujani",
             description: "Spotlights Reshma Saujani, CEO of Girls Who Code", 
             imgUrl: Reshma,
             category: "General Tech",
-            link: "https://docs.google.com/document/d/1UwxJxZ7yHbhSVsKN1raTKq0GXH62MNT9b0VEy5fyfGE/edit?usp=sharing"
+            link: "/blog-pages/reshma-saujani.html"
         },
         {
             title: "The Double-Edged Sword of Ethical Hacking",
             description: "Briefly describes ethical hacking and its role", 
             imgUrl: EthicalHacking,
             category: "General Tech",
-            link: "https://docs.google.com/document/d/1JqA45E4fN3107OgeLnMC1bfLiQHlfTJzmm3WD6MiYMw/edit?usp=sharing"
+            link: "/blog-pages/ethical-hacking.html"
         }
     ];
     
