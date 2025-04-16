@@ -48,7 +48,9 @@
             }
             img {
                 max-width: 50%;
+                height: auto;
                 border-radius: 10px;
+                margin: 20px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             }
             .next-button {
@@ -117,34 +119,23 @@
                 tab-size: 4;
             }
             .back-button {
-                position: fixed;
-                top: 20px;
-                left: 20px;
-                background-color: white;
-                color: hotpink;
-                border: none;
+                display: inline-block;
                 padding: 10px 20px;
+                background-color: #ff69b4;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                margin: 20px;
                 font-family: "Emilys Candy", cursive;
                 font-size: 20px;
-                border-radius: 50px;
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                transition: transform 0.3s ease;
-                z-index: 1000;
-                text-decoration: none;
             }
             .back-button:hover {
-                transform: scale(1.05);
+                background-color: #ff1493;
             }
         </style>
     </head>
     <body>
-        <a href="/tutorial.html" class="back-button">
-            Back to Tutorials
-        </a>
+        <a href="/tutorial.html" class="back-button">← Back to Tutorials</a>
         <div class="container">
             <h1>Valentine's Day Website</h1>
 
