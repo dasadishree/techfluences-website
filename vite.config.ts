@@ -17,6 +17,7 @@ export default defineConfig({
         blog: resolve(root, 'blogpage.html'),
         team: resolve(root, 'team.html'),
         spotlight: resolve(root, 'spotlight.html'),
+        tutorial: resolve(root, 'tutorial.html'),
       }
     }
   }
