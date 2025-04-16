@@ -15,6 +15,9 @@ function TeamBanner(){
                     <p className="subhead text-center">
   Meet the passionate team behind Techfluences! We are a dynamic group dedicated to sparking interest in technology and computer science across all ages. Each of us brings unique skills and a shared commitment to inspiring the next generation of tech enthusiasts.
 </p>
+                    <div className="button-container">
+                        <button className="learnmore projectSubmit" onClick={() => { window.location.href = "https://forms.gle/GAA4wxmkSiHKrELY6" }}>Join Our Team</button>
+                    </div>
                      </div>
                 </Col>
             </Row>

@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons"; 
 import { useState, useEffect} from "react";
 import CompIcon from "../assets/CompIcon.png"
+import Timeline from "./Timeline";
 
 function Banner(){
 
@@ -43,36 +44,6 @@ function Banner(){
     };
     const instaLink = 'https://www.instagram.com/techfluences?igsh=MTBvcDR3MG05aGxrbw=='
 
-  const Timeline = () => {
-  const events = [
-    { date: '7/12/24', title: 'Start!', description: 'Techfluences officially started and we began planning what we want to do!' },
-    { date: '7/15/24', title: 'Blog & Website Start', description: 'We began our weekly blogs and created our (old) website' },
-    { date: '8/2/24', title: 'Project Spotlight Program', description: 'Created our Project Spotlight Program to showcase the work of young coders' },
-    { date: '8/23/24', title: 'Tech Trivia Night', description: 'Collaborated with ScriptCrew to host Tech Trivia Night Event' },
-    { date: '8/25/24', title: '501(c)(3) Nonprofit', description: 'Became a 501(c)(3) nonprofit organization under Hackclub HCB' },
-    { date: '9/25/24', title: 'New updated website launched!', description: 'Launched our new website - coded by our team!' },
-    { date: '12/15/24', title: 'Partnership With CodeCrafters', description: 'Help teach kids how to make their own projects through CodeCrafters\' guides & courses' },
-
-];
-
-  return (
-    <div style={{ overflowX: "auto", width: "100%", padding: "10px 0", whiteSpace: "nowrap" }}>
-      <div className="timeline">
-        {events.map((event, index) => (
-          <div className="timeline-item" key={index}>
-            <div className="timeline-date">{event.date}</div>
-            <div className="timeline-content">
-              <h3>{event.title}</h3>
-              <p>{event.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-
     return <>
     <section className="banner" id="home">
         <div className="banner__container">
@@ -91,7 +62,7 @@ function Banner(){
                 </Col>
             </Row>
             <Row>
-            <div className="timeline-section" style={{marginTop:'0', padding:'0'}}>
+                <div className="timeline-section" style={{marginTop:'0', padding:'0'}}>
                     <h3 className="my-4 text-center codecrafters-head" style={{marginBottom:'5px'}}>Timeline!</h3>
                     <p className="text-center" style={{marginTop: '5px', marginBottom: '10px'}}>See all we have accomplished in the past few months!</p>
                     <Timeline/>

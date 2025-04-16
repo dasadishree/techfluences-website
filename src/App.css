@@ -228,6 +228,7 @@ a.navbar-brand img{
     background: linear-gradient(30deg, var(--secondary-color), var(--main-color));
     height: 100%;
     padding: 5%;
+    margin-bottom: 0 !important;
 }
 
 .learnmore {
@@ -466,6 +467,7 @@ a.navbar-brand img{
 
 .banner__content{
     margin-bottom: 100px;
+    padding-bottom: 0 !important;
 }
 
 .banner__content h3{
@@ -921,40 +923,212 @@ a.navbar-brand img{
     flex-direction: column;
     justify-content: center;
 }
-.timeline {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px 0;
-    overflow-x: auto;
-    overflow-y: hidden;
-    width: 100%;
-    max-width: 100%;
-    white-space: normal;
-    scrollbar-width: thin;
-  }
-  
-  .timeline::-webkit-scrollbar {
-    height: 6px;
-  }
-  
-  .timeline::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 3px;
-  }
-  
-  .timeline-item {
-    text-align: center;
-    min-width: 20px;
-    display: inline-block;
-  }
+.timeline-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0;
+  will-change: transform;
+}
 
-  .timeline-content {
-    background: #234478;
-    padding: 0px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-width: 20px;
-    display: inline-block;
-    width: 90%
-  }  
+.timeline-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding: 0 20px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
+.timeline-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.timeline-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  min-width: max-content;
+  width: max-content;
+  transform: translateZ(0);
+}
+
+.timeline-item {
+  flex: 0 0 300px;
+  background: rgba(35, 68, 120, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  min-width: 300px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.timeline-item:hover {
+  transform: translateY(-5px) translateZ(0);
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.timeline-content h3 {
+  color: #fff;
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.timeline-content p {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    flex: 0 0 250px;
+    min-width: 250px;
+  }
+}
+
+/* Tutorial Page Styles */
+.tutorial-page {
+  padding: 80px 0;
+  min-height: 100vh;
+  background: linear-gradient(30deg, var(--main-color), var(--secondary-color));
+}
+
+.tutorial-heading {
+  font-size: 3.5em;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.tutorial-subheading {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tutorial-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tutorial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tutorial-level {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  color: white;
+}
+
+.tutorial-title {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.tutorial-description {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+  min-height: 60px;
+}
+
+.tutorial-duration {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+.tutorial-topics {
+  margin-bottom: 20px;
+}
+
+.tutorial-topics h6 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.tutorial-topics ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.tutorial-topics li {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 5px;
+}
+
+.tutorial-link {
+  display: inline-block;
+  padding: 10px 25px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.tutorial-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .tutorial-heading {
+    font-size: 2.5em;
+  }
+  
+  .tutorial-subheading {
+    font-size: 1em;
+  }
+  
+  .tutorial-card {
+    margin-bottom: 20px;
+  }
+}  
+
+.button-container {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.banner__content {
+    padding-bottom: 0 !important;
+}
+
+.banner {
+    margin-bottom: 0 !important;
+}  
