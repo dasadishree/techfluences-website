@@ -15,6 +15,7 @@ export default defineConfig({
       input:{
         main: resolve(root, 'index.html'),
         blog: resolve(root, 'blogpage.html'),
+        blogjs: resolve(root, 'blog.tsx'),
         team: resolve(root, 'team.html'),
         spotlight: resolve(root, 'spotlight.html'),
         tutorial: resolve(root, 'tutorial.html'),
