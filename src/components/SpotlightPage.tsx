@@ -4,6 +4,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 function SpotlightPage() {
     // Define the project data with image URLs and links
     const projects = [
+        { name: "Signal Lost", author: ["Estella Gu"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2b25a173607174dc946c4a579ae6dbfd314bdfc7_image.png", link: "https://themagicfrog.itch.io/signal-lost"},
+        { name: "Mama's Jiaoziria", author: ["Lubaba Nawla", "Issac Liu"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/8c00dbe0e8266105dfb9ed1cc72e9098125e03df_image.png", link: "https://camuise.itch.io/mamas-jiaoziria"},
         { name: "Trench of Shadows", author: ["Emma Borghi"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2056cf61322060e63fa66c482aba38af44ccd906_image.png", link: "https://fralas.github.io/Trench-of-shadows-website/homepage.html"},
         { name: "Cocytus", author: ["Sarah Ngai"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/835c4be5b93908838faf5db37f958dfab5af5f36_image.png", link: "https://idksarah.itch.io/cocytus"},
         { name: "Salle D'evasion", author: ["Reem Khalifa"], imageUrl: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9684c15f4bab3df44fb2eeb50bcf8b5070d0d5b5_image.png", link: "https://reemkhalifa.itch.io/salledevasion" },
