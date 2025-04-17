@@ -40,7 +40,8 @@ function NavBar() {
             <Nav.Link href="blogpage.html" className={handleActive("blogs")} onClick={()=>{onUpdateActiveLink("blogs")}} style={{ marginRight: '20px' }}>Blog</Nav.Link>
             <Nav.Link href="spotlight.html" className={handleActive("spot")} onClick={()=>{onUpdateActiveLink("spot")}} style={{ marginRight: '20px' }}>Spotlight</Nav.Link>
             <Nav.Link href="/tutorial.html" className={handleActive("tutorial")} onClick={()=>{onUpdateActiveLink("tutorial")}} style={{ marginRight: '20px' }}>Tutorials</Nav.Link>
-            <Nav.Link href="team.html" className={handleActive("sliders")} onClick={()=>{onUpdateActiveLink("sliders")}}>Team</Nav.Link>
+            <Nav.Link href="team.html" className={handleActive("sliders")} onClick={()=>{onUpdateActiveLink("sliders")}} style={{ marginRight: '20px' }}>Team</Nav.Link>
+            <Nav.Link href="resources.html" className={handleActive("resources")} onClick={()=>{onUpdateActiveLink("resources")}}>Resources</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <Socials id=""/>        

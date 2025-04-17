@@ -18,6 +18,7 @@ export default defineConfig({
         blogjs: resolve(root, 'blog.tsx'),
         team: resolve(root, 'team.html'),
         spotlight: resolve(root, 'spotlight.html'),
+        resources: resolve(root, 'resources.html'),
         tutorial: resolve(root, 'tutorial.html'),
         'valentine': resolve(root, 'tutorial-pages/valentine.html'),
         'pythonbasics': resolve(root, 'tutorial-pages/pythonbasics.html'),
