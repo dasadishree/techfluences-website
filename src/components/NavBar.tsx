@@ -8,28 +8,27 @@ import Socials from './Socials';
 function NavBar() {
     const onUpdateActiveLink = (item:string)=>{
         setActiveLink(item)
-        console.log(activeLink)
     }
-    const handleActive = (item: string)=>{
-        if (item == activeLink){
-            return "active navbar-link"
-        } else {
-            return "navbar-link"
-        }
-    }
-    const [activeLink, setActiveLink] = useState("home")
-    const [scrolled, setScrolled] = useState(false)
-    useEffect(()=>{
-        const onScroll = ()=>{
-            if (window.scrollY > 50){
-                setScrolled(true)
-            } else{
-                setScrolled(false)
+    const [activeLink, setActiveLink] = useState('home');
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const onScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
             }
         }
+
         window.addEventListener("scroll", onScroll);
-        return window.removeEventListener("scroll", onScroll)
-        }, [])
+
+        return () => window.removeEventListener("scroll", onScroll);
+    }, [])
+
+    const handleActive = (item:string) => {
+        return item === activeLink ? "active navbar-link" : "navbar-link";
+    }
 
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""} >
@@ -38,7 +37,6 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="index.html" className={handleActive("home")} onClick={()=>{onUpdateActiveLink("home")}} style={{ marginRight: '20px' }}>About</Nav.Link>
             <Nav.Link href="blogpage.html" className={handleActive("blogs")} onClick={()=>{onUpdateActiveLink("blogs")}} style={{ marginRight: '20px' }}>Blog</Nav.Link>
             <Nav.Link href="spotlight.html" className={handleActive("spot")} onClick={()=>{onUpdateActiveLink("spot")}} style={{ marginRight: '20px' }}>Spotlight</Nav.Link>
             <Nav.Link href="/tutorial.html" className={handleActive("tutorial")} onClick={()=>{onUpdateActiveLink("tutorial")}} style={{ marginRight: '20px' }}>Tutorials</Nav.Link>
