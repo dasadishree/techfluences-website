@@ -6,7 +6,7 @@ import GraceHopper from '../assets/gracehopper.jpg';
 import DataPrivacy from '../assets/dataprivacy.jpg';
 import Reshma from '../assets/Reshma.png';
 import EthicalHacking from '../assets/ethicalhacking.png';
-import IllusionOfChoice from '../assets/illusion-of-choice.png';
+import IllusionOfChoice from '../assets/illusion.png';
 import CybersecurityCatastrophe from '../assets/cyber-catastrophe.png';
 import HistoryOfCoding from '../assets/history-coding.png';
 import WebDevBasics from '../assets/web-dev-guide.png';
