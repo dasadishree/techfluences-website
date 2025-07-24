@@ -6,22 +6,32 @@ import GraceHopper from '../assets/gracehopper.jpg';
 import DataPrivacy from '../assets/dataprivacy.jpg';
 import Reshma from '../assets/Reshma.png';
 import EthicalHacking from '../assets/ethicalhacking.png';
+import IllusionOfChoice from '../assets/illusionofchoice.png';
+import CybersecurityCatastrophe from '../assets/cyber-catastrophe.png';
+import HistoryOfCoding from '../assets/history-coding.png';
+import WebDevBasics from '../assets/web-dev-guide.png';
+import CybersecurityBasics from '../assets/cyber-basics.png';
 
 function Projects() {
     const projects = [
         {
+            title: "The Illusion of Choice: Are Algorithms Making Our Decisions for Us?",
+            imgUrl: IllusionOfChoice,
+            link: "/blog-pages/illusion-of-choice.html"
+        },
+        {
             title: "Cybersecurity Catastrophe",
-            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000047-ba312ba316/700/blog%20cover%20templates.webp?ph=026eecf95c",
+            imgUrl: CybersecurityCatastrophe,
             link: "/blog-pages/cybersecurity-catastrophe.html"
         },
         {
             title: "History of Coding",
-            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000129-6eae36eae6/700/7.webp?ph=026eecf95c",
+            imgUrl: HistoryOfCoding,
             link: "/blog-pages/history-of-coding.html"
         },
         {
             title: "Web Dev Basics",
-            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000112-948799487e/700/5.webp?ph=026eecf95c",
+            imgUrl: WebDevBasics,
             link: "/blog-pages/web-dev-basics.html"
         },
         {
@@ -31,7 +41,7 @@ function Projects() {
         },
         {
             title: "Cybersecurity Basics",
-            imgUrl: "https://026eecf95c.cbaul-cdnwnd.com/b58983c34de9d768e1d335200398a7a7/200000139-0477b0477e/700/9.webp?ph=026eecf95c",
+            imgUrl: CybersecurityBasics,
             link: "/blog-pages/cybersecurity-basics.html"
         },
         {
