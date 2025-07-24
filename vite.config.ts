@@ -32,7 +32,8 @@ export default defineConfig({
         'grace-hopper': resolve(root, 'blog-pages/grace-hopper.html'),
         'data-privacy': resolve(root, 'blog-pages/data-privacy.html'),
         'reshma-saujani': resolve(root, 'blog-pages/reshma-saujani.html'),
-        'ethical-hacking': resolve(root, 'blog-pages/ethical-hacking.html')
+        'ethical-hacking': resolve(root, 'blog-pages/ethical-hacking.html'),
+        'illusion-of-choice': resolve(root, 'blog-pages/illusion-of-choice.html')
       }
     }
   }
